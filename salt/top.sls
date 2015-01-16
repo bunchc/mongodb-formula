@@ -1,6 +1,6 @@
 base:
   "*":
-  	- secureserver.secureserver
+    - secureserver.secureserver
   roles:mongodb.mongos:
       - match: grain
       - mongodb.mongos
